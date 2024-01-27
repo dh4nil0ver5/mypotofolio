@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
-    <link rel="stylesheet" href="{{ URL::to('/') }}/style.css">
+    <link rel="stylesheet" href="{{ URL::to('/') }}/style.css" />
+    <link rel="stylesheet" href="{{ URL::to('/') }}/mediaqueries.css" />
 </head>
 <body>
-    <nav id="desktop_nav">
+    <nav id="desktop-nav">
         <div class="logo">Nur Chamdani</div>
         <div>
             <ul class="nav-links">
@@ -19,9 +20,9 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo"></div>
+        <div class="logo">Nur Chamdani</div>
         <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+            <div class="hamburger-icon" onclick="toggleMenu()"> 
                 <span></span>
                 <span></span>
                 <span></span>
@@ -34,6 +35,11 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="" alt="" >
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
