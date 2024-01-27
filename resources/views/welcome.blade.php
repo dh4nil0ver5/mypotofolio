@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
-    <link rel="stylesheet" href="{{ URL::to('/') }}style.css">
+    <link rel="stylesheet" href="{{ URL::to('/') }}/css/app.css">
 </head>
 <body>
     <nav id="desktop_nav">
