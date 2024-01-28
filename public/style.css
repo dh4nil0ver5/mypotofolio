@@ -57,5 +57,6 @@ section{ padding-top: 4vh; height: 96vh; margin: 0 10rem; box-sizing: border-box
 #social-container{ display: flex; justify-content: center;margin-top: 1rem;gap: 1rem;}
 #social-container .pass-img{ width: 50px; height: 50px; }
 
+
 /* ICON */
 .icon{ cursor: pointer; height: 2rem;}
