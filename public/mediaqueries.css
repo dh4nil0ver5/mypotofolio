@@ -1,12 +1,13 @@
 @media screen and (max-width: 1200px) {
-    body{overflow-y: hidden;}
+    /* body{overflow-y: hidden;} */
     #desktop-nav{ display: none;}
     #hamburger-nav{display: flex;} 
-
-    #profile, .section__container{ display: block; }
-    section, .section__container{ height: fit-content;}
+    /*  */
+    #profile{ display: none;}
+    #profile_mob{ display: flex; height: 500px; width: 100%;}
+    #profile_mob .pic_container{ height: 250px; width: 100%; background-color: aqua;}
+    #profile_mob .Info{ height: 250px; width: 100%; background-color: blue;}
 }
-
 @media screen and (max-width: 400px) {
     body{ background: white;}
     #desktop-nav { display: none; }

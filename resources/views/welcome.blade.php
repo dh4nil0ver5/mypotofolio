@@ -35,12 +35,13 @@
             </div>
         </div>
     </nav>
+    <!-- Desktop -->
     <section id="profile">
-        <div class="section__pic-container">
+        <div class="section__pic-container"> 
             <img src="{{ URL::to('/') }}/pic/circle_photo.png" alt="Nur Chamdani" >
-        </div>
+        </div>  
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
+            <p class="section__text__p1" background="red">Hello, I'm</p>
             <h1 class="title">Nur Chamdani </h1>
             <p class="setion__text__p2">Fullstack Developer</p>
             <div class="btn-container">
@@ -51,6 +52,14 @@
                 <img class="pass-img" src="{{ URL::to('/') }}/pic/linkedin.png" alt="LinkedIn" onclick="location.href=''">
                 <img class="pass-img" src="{{ URL::to('/') }}/pic/github.png" alt="Github" onclick="location.href=''">
             </div>
+        </div> 
+    </section>
+    <section id="profile_mob">
+        <div class="pic_container">
+            Test
+        </div>
+        <div class="Info">
+            Test
         </div>
     </section>
     <script src="script.js"></script>
