@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+    body{overflow-y: hidden;}
+    #desktop-nav{ display: none;}
+    #hamburger-nav{display: flex;}
+    
+    /* MENU */
+
+    /*  */
+
+    /* PROFILE */
+    #profile {display: flex; flex-direction: column; justify-content: center; padding: 0; margin: 0;}
+    .section__pic-container {
+        display: flex;
+        height: auto;
+        width: auto;
+        margin: auto 0;
+    }
+    .section__text{ background: blue;}
+    /*  */
+
+}
+
+@media screen and (max-width: 400px) {
+    body{ background: white;}
+    #desktop-nav { display: none; }
+    #hamburger-nav { display: flex; }
+}

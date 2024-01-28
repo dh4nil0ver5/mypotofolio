@@ -37,7 +37,20 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="" alt="" >
+            <img src="{{ URL::to('/') }}/pic/circle_photo.png" alt="Nur Chamdani" >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Nur Chamdani </h1>
+            <p class="setion__text__p2">Fullstack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="" >Download CV</button>
+                <button class="btn btn-color-1" onclick="" >Contact Person</button>
+            </div>
+            <div id="social-container">
+                <img class="pass-img" src="{{ URL::to('/') }}/pic/linkedin.png" alt="LinkedIn" onclick="location.href=''">
+                <img class="pass-img" src="{{ URL::to('/') }}/pic/github.png" alt="Github" onclick="location.href=''">
+            </div>
         </div>
     </section>
     <script src="script.js"></script>

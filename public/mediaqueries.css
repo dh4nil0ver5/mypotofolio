@@ -1,4 +1,14 @@
 @media screen and (max-width: 1200px) {
+    body{overflow-y: hidden;}
     #desktop-nav{ display: none;}
-    #hamburger-nav{display: flex;}
+    #hamburger-nav{display: flex;} 
+
+    #profile, .section__container{ display: block; }
+    section, .section__container{ height: fit-content;}
+}
+
+@media screen and (max-width: 400px) {
+    body{ background: white;}
+    #desktop-nav { display: none; }
+    #hamburger-nav { display: flex; width: 100%;}
 }
