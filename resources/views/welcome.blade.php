@@ -13,9 +13,9 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#about">Experience</a></li>
-                <li><a href="#about">Project</a></li>
-                <li><a href="#about">Content</a></li>
+                <li><a href="#experince">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Content</a></li>
             </ul>
         </div>
     </nav>
