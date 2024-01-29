@@ -45,7 +45,7 @@
     .about_myself{ text-justify: newspaper; text-align: justify;}
 
     /* EXPERIENCE */
-    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; }
+    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 400px; }
     #experience_mob .experience{ margin-left: 40px; margin-right: 40px;}
     .list .head_list{ text-align: center; font-family: 'Poppin', sans-serif; font-size: 28px; margin-bottom: 5%;}
     .list{border: 1px solid black; border-radius: 5%; padding: 15px; margin-bottom: 5%;}
