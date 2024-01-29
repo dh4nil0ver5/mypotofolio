@@ -58,5 +58,7 @@ section{ padding-top: 4vh; height: 96vh; margin: 0 10rem; box-sizing: border-box
 #social-container .pass-img{ width: 50px; height: 50px; }
 
 
+/* OTHERS  */
+#pages_mobile{ display: none; }
 /* ICON */
 .icon{ cursor: pointer; height: 2rem;}

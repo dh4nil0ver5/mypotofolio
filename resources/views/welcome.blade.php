@@ -55,6 +55,10 @@
                 </div>
             </div> 
         </section>
+        <section id="about"></section>
+    </div>
+    <div id="pages_mobile">
+        </section>
         <section id="profile_mob">
             <div class="pic_container">
                 <img src="{{ URL::to('/') }}/pic/circle_photo.png" alt="Nur Chamdani" >
@@ -202,7 +206,7 @@
             <div class="experience">
             </div> 
         </section>
-        <section id="project_mob"> 
+        <section id="contact_mob"> 
             <div class="pic_container">
                 <h4>Contact</h4>
             </div>
