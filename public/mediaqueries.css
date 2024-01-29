@@ -43,6 +43,16 @@
     .pic_about img { width: 250px; height: 250; }
     .about_myself{ width: 80%; padding-left: 40px; padding-right: 40px;} 
     .about_myself{ text-justify: newspaper; text-align: justify;}
+
+    /* EXPERIENCE */
+    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; }
+    #experience_mob .experience{ margin-left: 40px; margin-right: 40px;}
+    .list .head_list{ text-align: center; font-family: 'Poppin', sans-serif; font-size: 28px; margin-bottom: 5%;}
+    .list{border: 1px solid black; border-radius: 5%; padding: 15px;}
+    .field_list{ display: flex; flex-direction: row; justify-content: space-between; }
+    .row_list_2{ display: flex; flex-direction: row; justify-content: space-around;}
+    .icon_veryfied{ margin-left: 10px; margin-right: 10px;}
+
     /* ARROW */
     .feedback {
         background-color : #31B0D5;

@@ -101,27 +101,30 @@
             <div class="experience">
                 <div class="list">
                   <div class="head_list">
-                    <h5>Beckend</h5>
+                    <h6>Beckend</h6>
                   </div>
                   <div class="detail_list">
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
+                    <div class="row_list_2">
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">MYSQL</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">MYSQL</h3>
-                            <h6 class="exp_year">Experienced 4 year</h6>
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">Oracle</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
-                        </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">Oracle</h3>
-                            <h6 class="exp_year">Experienced 1 year</h6>
-                        </div>
-                    </div>
+                    
                     <div class="field_list">
                         <div class="icon_veryfied">
                             veryf
