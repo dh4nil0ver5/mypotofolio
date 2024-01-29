@@ -46,11 +46,11 @@
                 <h1 class="title">Nur Chamdani </h1>
                 <p class="setion__text__p2">Fullstack Developer</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="" >Download CV</button>
-                    <button class="btn btn-color-1" onclick="" >Contact Person</button>
+                    <button class="btn btn-color-2" onclick="location.href='https://drive.google.com/file/d/1tXbGzo03PgxgN61fMK69inNwjusf24jO/view?usp=sharing'" >Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='https://wa.me/08979452329'" >Contact Person</button>
                 </div>
                 <div id="social-container">
-                    <img class="pass-img" src="{{ URL::to('/') }}/pic/linkedin.png" alt="LinkedIn" onclick="location.href=''">
+                    <img class="pass-img" src="{{ URL::to('/') }}/pic/linkedin.png" alt="LinkedIn" onclick="location.href='https://www.linkedin.com/in/nur-chamdani-b38017126/'">
                     <img class="pass-img" src="{{ URL::to('/') }}/pic/github.png" alt="Github" onclick="location.href=''">
                 </div>
             </div> 
@@ -162,7 +162,7 @@
                                 <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
                             </div>
                             <div class="box_skill_detail">
-                                <h3 class="name_skill">SASS / CSS</h3>
+                                <h3 class="name_skill">CSS</h3>
                                 <p class="exp_year">Experienced</p>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                                 <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
                             </div>
                             <div class="box_skill_detail">
-                                <h3 class="name_skill">MYSQL</h3>
+                                <h3 class="name_skill">Android Native</h3>
                                 <p class="exp_year">Experienced</p>
                             </div>
                         </div>
@@ -189,27 +189,39 @@
                                 <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
                             </div>
                             <div class="box_skill_detail">
-                                <h3 class="name_skill">Oracle</h3>
+                                <h3 class="name_skill">Flutter</h3>
                                 <p class="exp_year">Experienced</p>
                             </div>
                         </div>
+                    </div> 
+                    <div class="row_list_2">
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">React Native</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
+                        </div> 
                     </div> 
                   </div>
                 </div>
             </div> 
         </section>
-        <section id="project_mob"> 
+        <!-- <section id="project_mob"> 
             <div class="pic_container">
                 <h4>Project</h4>
             </div>
-            <div class="experience">
+            <div class="project">
             </div> 
-        </section>
+        </section> -->
         <section id="contact_mob"> 
             <div class="pic_container">
                 <h4>Contact</h4>
             </div>
-            <div class="experience">
+            <div class="contact">
+
             </div> 
         </section>
     </div>
