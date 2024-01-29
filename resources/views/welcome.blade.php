@@ -28,10 +28,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experince" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about_mob" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience_mob" onclick="toggleMenu()">Experience</a></li>
+                <!-- <li><a href="#project_mob" onclick="toggleMenu()">Project</a></li> -->
+                <li><a href="#contact_mob" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
