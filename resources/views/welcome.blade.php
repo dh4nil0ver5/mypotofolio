@@ -29,9 +29,9 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#about" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#about" onclick="toggleMenu()">Project</a></li>
-                <li><a href="#about" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#experince" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -56,6 +56,9 @@
             </div> 
         </section>
         <section id="about"></section>
+        <section id="experince"></section>
+        <section id="project"></section>
+        <section id="contact"></section>
     </div>
     <div id="pages_mobile"> 
         <section id="profile_mob">
