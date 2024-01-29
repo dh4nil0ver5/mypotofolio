@@ -31,7 +31,7 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#about" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#about" onclick="toggleMenu()">Project</a></li>
-                <li><a href="#about" onclick="toggleMenu()">Content</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -198,6 +198,13 @@
         <section id="project_mob"> 
             <div class="pic_container">
                 <h4>Project</h4>
+            </div>
+            <div class="experience">
+            </div> 
+        </section>
+        <section id="project_mob"> 
+            <div class="pic_container">
+                <h4>Contact</h4>
             </div>
             <div class="experience">
             </div> 
