@@ -1,5 +1,6 @@
 @media screen and (max-width: 1200px) {
     body{overflow-y: auto; padding: 0; margin: 0; background: white;} 
+    #pages{ display: none; }
     #pages_mobile{ display: block; }
 
     /*  */
@@ -7,6 +8,7 @@
     #hamburger-nav{ display: flex; } 
 
     /* PROFILE */ 
+    
     #profile_mob{ display: flex; height: 500px; width: 100%; flex-direction: column; margin-left: 0;
         padding-top: 0;}
     .pic_container { display: flex; justify-content: center; justify-items: center; margin-bottom: 20px;}
