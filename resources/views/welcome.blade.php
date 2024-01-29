@@ -124,41 +124,44 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
+                    <div class="row_list_2">
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">HTML</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">HTML</h3>
-                            <h6 class="exp_year">Experienced 4 year</h6>
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">Javascript</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
+                    </div> 
+                    <div class="row_list_2">
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">PHP</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">Javascript</h3>
-                            <h6 class="exp_year">Experienced 4 year</h6>
-                        </div>
-                    </div>
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
-                        </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">PHP</h3>
-                            <h6 class="exp_year">Experienced 4 year</h6>
-                        </div>
-                    </div>
-                    <div class="field_list">
-                        <div class="icon_veryfied">
-                            veryf
-                        </div>
-                        <div class="box_skill_detail">
-                            <h3 class="name_skill">SASS / CSS Stylesheet</h3>
-                            <h6 class="exp_year">Experienced 4 year</h6>
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">SASS / CSS</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
                         </div>
                     </div>
                   </div>
@@ -167,11 +170,28 @@
                     <div class="head_list">
                         <h5>Frontend</h5>
                     </div>  
-                    <div class="detail_list">
-                      Android Native, 
-                      Flutter, 
-                      React Native
-                    </div>
+                  <div class="detail_list">
+                    <div class="row_list_2">
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">MYSQL</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
+                        </div>
+                        <div class="field_list">
+                            <div class="icon_veryfied">
+                                <img src="{{ URL::to('/') }}/pic/verify.png" alt="icons" width=20 height=20 />
+                            </div>
+                            <div class="box_skill_detail">
+                                <h3 class="name_skill">Oracle</h3>
+                                <p class="exp_year">Experienced</p>
+                            </div>
+                        </div>
+                    </div> 
+                  </div>
                 </div>
             </div> 
         </section>
