@@ -410,9 +410,9 @@
             <div class="logo">Nur Chamdani</div>
         </nav>
     </footer>
-    <div id="arrows">
+    <!-- <div id="arrows">
         <div class="feedback">v</div> 
-    </div>
+    </div> -->
     <script src="script.js"></script>
 </body>
 </html>
