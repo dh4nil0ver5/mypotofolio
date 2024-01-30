@@ -21,8 +21,8 @@
     .btn-container{ width: 100%; display: flex; flex-direction: row; justify-content: center;}
     .btn.btn-color-2{ border: 0px solid transparent; border-top-left-radius: 2%; border-bottom-left-radius: 2%; background: black; color: white; padding: 10px; margin-right: 1%; }
     .btn.btn-color-1{ border: 0px solid transparent; border-top-right-radius: 2%; border-bottom-right-radius: 2%; background: gray; color: white; padding: 10px; margin-left: 1%; }
-    .btn.btn-color-2:hover{ background: gray; color: white; cursor: pointer;}
-    .btn.btn-color-1:hover{ background: black; color: white; cursor: pointer;}
+    /* .btn.btn-color-2:hover{ background: gray; color: white; cursor: pointer;}
+    .btn.btn-color-1:hover{ background: black; color: white; cursor: pointer;} */
     
     /* ABOUT */
     #about_mob{ height: 700px; width: 100%; margin-left: 0; padding-top: 0;}
@@ -34,22 +34,16 @@
     .about_myself{ text-justify: newspaper; text-align: justify;}
 
     /* EXPERIENCE */
-    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 400px; }
+    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 480px; margin-bottom: 20px;}
     #experience_mob .experience{ margin-left: 40px; margin-right: 40px;}
     .list .head_list{ text-align: center; font-family: 'Poppin', sans-serif; font-size: 28px; margin-bottom: 5%;}
-    .list{ border: 1px solid black; border-radius: 15px 15px 15px 15px; padding: 15px; margin-bottom: 5%;}
+    .list{ border: 1px solid black; border-radius: 15px 15px 15px 15px; padding: 15px; margin-bottom: 5%; }
     .field_list{ display: flex; flex-direction: row; justify-content: space-between; }
     .row_list_2{ display: flex; flex-direction: row; justify-content: space-around;}
     .icon_veryfied{ margin-left: 10px; margin-right: 10px; }
 
     /* CONTACT */
-    #contact_mob{
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-            padding-top: 20px;
-            height: 400px;
-        }
+    #contact_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 400px; }
 
     /* ARROW */
     .feedback { background-color : #31B0D5; color: white; padding: 10px 20px; border-radius: 4px; border-color: #46b8da; }

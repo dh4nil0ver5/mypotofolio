@@ -14,7 +14,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experince">Experience</a></li>
-                <li><a href="#project">Project</a></li>
+                <!-- <li><a href="#project">Project</a></li> -->
                 <li><a href="#contact">Content</a></li>
             </ul>
         </div>
@@ -55,10 +55,182 @@
                 </div>
             </div> 
         </section>
-        <section id="about"></section>
-        <section id="experince"></section>
-        <section id="project"></section>
-        <section id="contact"></section>
+        <section id="about">
+            <div class="pic_container">
+                <h4>About</h4>
+            </div>
+            <div class="about_detail">
+                <div class="pic_about">
+                    <img src="{{ URL::to('/') }}/pic/circle_photo.png" alt="Nur Chamdani" >
+                </div>
+                <div class="about_myself">
+                    <p>
+                    I am a full stack developer. Experienced in the field of Backend and Frontend development as a freelancer. 
+                    Has worked as a contract employee at PT Sinergi Informatika Semen Indonesia Tbk with work assignments to assist 
+                    with development in Frontend using Codeigniter and Backend using Oracle. 
+                    Has been a teacher for 3 years, namely a software educator Teacher at Dharma Wanita High Vocanary School Gresik. 
+                    Has worked as a Running Support User for fixing data using AWS Redshift, 
+                    Troubleshooting PowerBi and monitoring jobs at a vendor company with the client company 
+                    PT Inovasi Optima Visitama by Vendor of PT Sampoerna Tbk (Phillip Morris International). 
+                    </p>
+                </div>
+            </div> 
+        </section>
+        <section id="experince"> 
+            <div class="head_box_experience">
+                <h3>Experience</h3>
+            </div>
+            <div class="body_box_experience">
+                <div class="box_skill">
+                    <div class="head_title_skill">
+                        <h3>Beckend</h3>
+                    </div>
+                    <div class="bod_container"> 
+                        <div class="box_grid">
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>HTML</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>PHP</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>MYSQL</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>Oracle</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="box_grid">
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>CSS</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>JS</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>Postgre</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_skill">
+                    <div class="head_title_skill">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="bod_container"> 
+                        <div class="box_grid">
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>Flutter</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>React Native</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="box_grid">
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>Android Native</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="box_detail">
+                                <div class="icon">
+                                    <img src="{{ URL::to('/') }}/pic/verify20x20.png" alt="icon">
+                                </div>
+                                <div class="detail_skill">
+                                    <h5>Kotlin</h5>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!-- <section id="project">
+            <div class="head_title">
+                <h3>Project</h3>
+            </div>
+            <div class="box_apps">
+                <div class="box-project">
+                    <div class="image_ss">
+                        <img src="" alt="" class="ss_apps" />
+                    </div>
+                    <div class="box_button">
+                        <button class="btn btn_show"></button>
+                    </div>
+                </div>
+                <div class="box-project"></div>
+            </div>
+        </section> -->
+        <section id="contact">
+            <div class="head_contact">
+                <h2>Contact</h2>
+            </div>
+            <div class="body_contact">
+                <div class="icon_wa">
+                    <img src="{{ URL::to('/') }}/pic/wa.png" alt="wa" width=25 height=25 />
+                </div>
+                <div class="numbr_wa">08979452329</div>
+            </div>
+        </section>
     </div>
     <div id="pages_mobile"> 
         <section id="profile_mob">
@@ -224,10 +396,20 @@
                 <h4>Contact</h4>
             </div>
             <div class="contact">
-
+                <div class="container_contact">
+                    <div class="whatsapp">
+                        <div class="ico_wa"></div>
+                        <div class="nmr_wa">08979452329</div>
+                    </div>
+                </div>
             </div> 
         </section>
     </div>
+    <footer> 
+        <nav id="hamburger-nav-footer">
+            <div class="logo">Nur Chamdani</div>
+        </nav>
+    </footer>
     <div id="arrows">
         <div class="feedback">v</div> 
     </div>
