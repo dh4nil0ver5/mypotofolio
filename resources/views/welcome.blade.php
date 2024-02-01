@@ -46,8 +46,9 @@
                 <h1 class="title">Nur Chamdani </h1>
                 <p class="setion__text__p2">Fullstack Developer</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="location.href='https://drive.google.com/file/d/1tXbGzo03PgxgN61fMK69inNwjusf24jO/view?usp=sharing'" >Download CV</button>
-                    <button class="btn btn-color-1" onclick="location.href='https://wa.me/08979452329'" >Contact Person</button>
+                    <button class="btn btn-color-2" id="btnDownloadCV" onclick="downloadcv()" >Download CV</button>
+                    <button class="btn btn-color-1" id="mywa" onclick="mywa()">Contact Person</button>
+                    <!-- onclick=""  -->
                 </div>
                 <div id="social-container">
                     <img class="pass-img" src="{{ URL::to('/') }}/pic/linkedin.png" alt="LinkedIn" onclick="location.href='https://www.linkedin.com/in/nur-chamdani-b38017126/'">
@@ -255,11 +256,11 @@
             <div class="pic_container">
                 <h4>About</h4>
             </div>
-            <div class="about_detail">
-                <div class="pic_about">
+            <div class="about_detail_mob">
+                <div class="pic_about_mob">
                     <img src="{{ URL::to('/') }}/pic/circle_photo.png" alt="Nur Chamdani" >
                 </div>
-                <div class="about_myself">
+                <div class="about_myself_mob ">
                     <p>
                     I am a full stack developer. Experienced in the field of Backend and Frontend development as a freelancer. 
                     Has worked as a contract employee at PT Sinergi Informatika Semen Indonesia Tbk with work assignments to assist 
@@ -398,7 +399,9 @@
             <div class="contact">
                 <div class="container_contact">
                     <div class="whatsapp">
-                        <div class="ico_wa"></div>
+                        <div class="ico_wa">
+                            <img src="{{ URL::to('/') }}/pic/wa.png" alt="wa" width=25 height=25 /> 
+                        </div>
                         <div class="nmr_wa">08979452329</div>
                     </div>
                 </div>

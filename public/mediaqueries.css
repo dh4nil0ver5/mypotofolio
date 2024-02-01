@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    body{overflow-y: auto; padding: 0; margin: 0; background: white;} 
+    body{overflow-y: auto; padding: 0; margin: 0; } 
     #pages{ display: none; }
     #pages_mobile{ display: block; }
 
@@ -25,16 +25,15 @@
     .btn.btn-color-1:hover{ background: black; color: white; cursor: pointer;} */
     
     /* ABOUT */
-    #about_mob{ height: 700px; width: 100%; margin-left: 0; padding-top: 0;}
-    .about-detail{ width: 100%;}
-    .pic_container h4{ font-size: 30px; font-family: 'Poppin',sans-serif;}
-    .pic_about { display: flex; justify-content: center; justify-items: center; margin-bottom: 20px; } 
-    .pic_about img { width: 250px; height: 250; }
-    .about_myself{ width: 80%; padding-left: 40px; padding-right: 40px;} 
-    .about_myself{ text-justify: newspaper; text-align: justify;}
+    #about_mob{ width: 100%; height: 100%; margin-left: 0; padding-top: 0; display: flex; flex-direction: column;} 
+    .about_detail{ display: flex; flex-direction: column; margin-bottom: 30px;}
+    .pic_about {width: 100%; height: 100%;} 
+    .pic_about_mob {display: flex; flex-direction: row; justify-content: center;}
+    .pic_about_mob img { width: 250px; height: 250px; margin-left: 20px; margin-right: 20px;}
+    .about_myself_mob p {margin-top: 20px; margin-left: 20px; text-align: justify; width: 90%;}
 
     /* EXPERIENCE */
-    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 480px; margin-bottom: 20px;}
+    #experience_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 500px; margin-bottom: 20px;}
     #experience_mob .experience{ margin-left: 40px; margin-right: 40px;}
     .list .head_list{ text-align: center; font-family: 'Poppin', sans-serif; font-size: 28px; margin-bottom: 5%;}
     .list{ border: 1px solid black; border-radius: 15px 15px 15px 15px; padding: 15px; margin-bottom: 5%; }
@@ -44,10 +43,16 @@
 
     /* CONTACT */
     #contact_mob{ width: 100%; margin-left: 0; margin-right: 0; padding-top: 20px; height: 400px; }
+    .contact { width: 100%; height: 100%; flex-direction: column; display: flex;}
+    .container_contact { margin-left: 20px; margin-right: 20px; width: 90%; }
+    .whatsapp{ display: flex; flex-direction: row; justify-content: center; width: 100%;}
+
 
     /* ARROW */
     .feedback { background-color : #31B0D5; color: white; padding: 10px 20px; border-radius: 4px; border-color: #46b8da; }
     #arrows{ position: fixed; bottom: -4px; right: 10px; margin-bottom: 10%; }
+    
+    footer #hamburger-nav-footer{ display: block; padding: 0; margin: 0; height: 10vh; text-align: center;}
 }
 @media screen and (max-width: 400px) {
     body{ background: white;}
