@@ -72,10 +72,10 @@
                 <li class="nav-item nav-profile dropdown btn_session">
                     @guest
                         @if (Route::has('login'))
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a> 
+                            <a class="nav-link" href="{{ route('login') }}" style="padding-right: 15px;" >{{ __('Login') }}</a> 
                         @endif
                         @if (Route::has('register'))
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="nav-link" href="{{ route('register') }}" style="padding-left: 15px;" >{{ __('Register') }}</a>
                         @endif
                     @else 
                   <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
