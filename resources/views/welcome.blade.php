@@ -14,8 +14,8 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experince">Experience</a></li>
-                <!-- <li><a href="#project">Project</a></li> -->
-                <li><a href="#contact">Content</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -205,13 +205,25 @@
                 </div>
             </div> 
         </section>
-        <!-- <section id="project">
+        <section id="project">
             <div class="head_title">
                 <h3>Project</h3>
             </div> 
             <div class="body_project">
+                <div class="box_project">
+                    <div class="box_ss_project">
+                        <img src="" alt="SS Result">
+                    </div>
+                    <div class="preview_project">
+                        <div class="ref_preview">
+                            <a href="{{ URL::to('/') }}/app_rab/home" class="btn btn-ref">
+                                Review Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div> 
-        </section> -->
+        </section>
         <section id="contact">
             <div class="head_contact">
                 <h2>Contact</h2>
