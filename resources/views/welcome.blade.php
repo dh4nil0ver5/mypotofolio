@@ -208,18 +208,9 @@
         <!-- <section id="project">
             <div class="head_title">
                 <h3>Project</h3>
-            </div>
-            <div class="box_apps">
-                <div class="box-project">
-                    <div class="image_ss">
-                        <img src="" alt="" class="ss_apps" />
-                    </div>
-                    <div class="box_button">
-                        <button class="btn btn_show"></button>
-                    </div>
-                </div>
-                <div class="box-project"></div>
-            </div>
+            </div> 
+            <div class="body_project">
+            </div> 
         </section> -->
         <section id="contact">
             <div class="head_contact">
