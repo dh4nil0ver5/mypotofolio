@@ -1,1 +1,9 @@
+#menu-mobile{ display: none; }
+.nav-login{ display: none; }
+/* #menu-desktop #menu-mobile */
 .btn_session{ display: flex; flex-direction: row; justify-content: space-around;}
+.rows{ margin-left: 90px; margin-right: 90px; }
+canvas#chart_activity { 
+    width: 100% !important;
+    height: 300px !important; 
+}

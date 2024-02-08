@@ -48,12 +48,13 @@ Route::group(['prefix' => 'app_rab', 'middleware'=>'auth'], function(){
 Route::group(['prefix' => 'app_rab'], function(){
     /* */ 
     Route::get('/home', [App\Http\Controllers\AppRabs\PagesController::class, 'index'])->name('app_rab'); 
-    Route::get('/pekerjaan', [App\Http\Controllers\AppRabs\PagesController::class, 'pekerjaan'])->name("pekerjaan");
-    Route::get('/item_pekerjaan', [App\Http\Controllers\AppRabs\PagesController::class, 'item_pekerjaan'])->name("item_pekerjaan"); 
-    Route::get('/sub_pekerjaan', [App\Http\Controllers\AppRabs\PagesController::class, 'sub_pekerjaan'])->name("sub_pekerjaan");
-    Route::get('/material', [App\Http\Controllers\AppRabs\PagesController::class, 'material'])->name("material");
-    Route::get('/formula', [App\Http\Controllers\AppRabs\PagesController::class, 'formula'])->name("formula");
-
+    Route::get('/pekerjaan', [App\Http\Controllers\AppRabs\PekerjaanController::class, 'index'])->name("pekerjaan");
+    Route::get('/item_pekerjaan', [App\Http\Controllers\AppRabs\ItemController::class, 'index'])->name("item_pekerjaan"); 
+    Route::get('/sub_pekerjaan', [App\Http\Controllers\AppRabs\SubController::class, 'index'])->name("sub_pekerjaan");
+    Route::get('/material', [App\Http\Controllers\AppRabs\MaterialController::class, 'index'])->name("material");
+    Route::get('/formula', [App\Http\Controllers\AppRabs\FormulaController::class, 'index'])->name("formula");
+    
     /* */ 
+    Route::get('/data/pekerjaan', [App\Http\Controllers\AppRabs\PekerjaanController::class, 'load_data'])->name("load_data");
 
 });

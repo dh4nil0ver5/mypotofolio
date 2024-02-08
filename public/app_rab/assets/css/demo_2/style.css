@@ -8235,7 +8235,8 @@ textarea.is-invalid.tt-hint {
 
 .align-self-stretch, .horizontal-menu .top-navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
   -ms-flex-item-align: stretch !important;
-  align-self: stretch !important; }
+  align-self: stretch !important; 
+  }
 
 .order-first {
   -webkit-box-ordinal-group: 0 !important;
