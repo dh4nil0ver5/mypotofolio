@@ -65,7 +65,7 @@
             <div class="col-xl-3 stretch-card grid-margin">
                 <div class="card">
                     <div class="card-head">
-                        <h6>Material Needed</h6>
+                        <h6>Material Stock</h6>
                     </div> 
                     <div class="card-body">
                         <div class="flot-chart-wrapper">

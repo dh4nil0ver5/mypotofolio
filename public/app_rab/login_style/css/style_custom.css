@@ -1,1 +1,25 @@
 .msg-error{ width: 100%; text-align: center; color: red; }
+.container-register100{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.body-register{ width: 50%; padding: 20px; background: white; border-radius: 30px;}
+.body-register .title{ font-size: medium; text-align: center; font-style: normal; font-weight: bold; font-size: 20px; color: black; width: 100%;}
+.form-register{ display: flex; flex-direction: column; width: 100%; background: white; border-radius: 20px rgba(255, 255, 255, 0) solid;}
+.input-field{ display: flex; flex-direction: row; justify-content: space-between; width: 100%; padding: 10px;}
+.input-field label{ width: 25%; }
+.input-field .input{ width: 70%; }
