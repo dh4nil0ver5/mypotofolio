@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route; 
+use Illuminate\Support\Facades\Route;  
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,11 @@ Route::get('/', function () { return view('welcome'); });
 
 Auth::routes(); 
 
+// routes for test api by auth
+Route::post('register', [App\Http\Controllers\Api\RegisterController::class, 'register']);
+Route::post('login', [App\Http\Controllers\Api\RegisterController::class, 'login']);
+
+// routes for app rab
 Route::group(['prefix' => 'app_rab', 'middleware'=>'auth'], function(){
     // pekerjaan
     Route::post('save/pekerjaan', 'PekerjaanController@save_pekerjaan')->name("save_pekerjaan");
