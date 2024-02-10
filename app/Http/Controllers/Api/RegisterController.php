@@ -27,7 +27,7 @@ class RegisterController extends BaseController
         $user = User::create($input);
         $success['token'] = $user->createToken('MyApps')->accessToken;
         $success['name'] = $user->name;
-        return $this->sendResponse($success, 'User register ok!');
+        return $this->sendResponse($success, 'ok');
     }
     // 
     public function login(Request $request){
@@ -35,8 +35,8 @@ class RegisterController extends BaseController
             $user = Auth::user();
             $success['token'] = Str::random(60);
             $success['detail_apps'] = $user->createToken('MyApps')->accessToken;
-            $success['user'] = array("name"=>$user->name, "email"=> $user->email);
-            return $this->sendResponse($success, 'User login successfull');
+            $success['user'] = array("name"=>$user->name, "email"=> $user->email, "id"=>$user->id);
+            return $this->sendResponse($success, "ok");
         }else{
             return $this->sendError('Unauthorised', ['error'=>'unauthorised']);
         }
