@@ -31,7 +31,7 @@ class RegisterController extends BaseController
     }
     // 
     public function login(Request $request){
-        if(Auth::attempt(['email' => $request->email, 'password' => $request->password])){
+        if(Auth::attempt(['email' => $request->email, 'password' => $request->password, 'token'=>Str::random(60)])){
             $user = Auth::user();
             $success['token'] = Str::random(60);
             $success['detail_apps'] = $user->createToken('MyApps')->accessToken;

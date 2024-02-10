@@ -22,10 +22,10 @@ Route::post('register', [App\Http\Controllers\Api\RegisterController::class, 're
 Route::post('login', [App\Http\Controllers\Api\RegisterController::class, 'login']);
 
 // routes for listing table testapi
-Route::group(['prefix' => 'testapi', 'middleware'=>'auth'], function(){
-    Route::get('/role', [App\Http\Controllers\TesttingApi\PagesController::class, 'list'])->name('list_pages'); 
-    Route::get('/purchasing',  [App\Http\Controllers\TesttingApi\PagesController::class, 'purchasing'])->name('purchasing');
-    Route::get('/profit/chart',  [App\Http\Controllers\TesttingApi\PagesController::class, 'chart'])->name('chart');  
+Route::group(['prefix' => 'testapi'], function(){
+    Route::get('/role', [App\Http\Controllers\TestingApi\PagesController::class, 'list'])->name('list_pages'); 
+    Route::get('/purchasing',  [App\Http\Controllers\TestingApi\PagesController::class, 'purchasing'])->name('purchasing');
+    Route::get('/profit/chart',  [App\Http\Controllers\TestingApi\PagesController::class, 'chart'])->name('chart');  
 });
 
 
